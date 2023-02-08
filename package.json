@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Export data from Mapeo 5 to import into Mapeo 6",
   "main": "index.js",
+  "bin": {
+    "mapeo-exporter": "bin/index.js"
+  },
   "type": "module",
   "dependencies": {
     "@mapeo/core": "^8.6.2",
