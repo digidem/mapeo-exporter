@@ -28,7 +28,7 @@ export class MapeoExporter {
             }
         })
         this.blobstore = blobstore(path.join(directory, 'media'))
-        this.mapeo = new Mapeo(this.osm, this.media)
+        this.mapeo = new Mapeo(this.osm, this.blobstore)
     }
 
     /**
